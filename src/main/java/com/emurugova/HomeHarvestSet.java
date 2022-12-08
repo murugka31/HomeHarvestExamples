@@ -7,18 +7,18 @@ public class HomeHarvestSet {
 
     private static Integer gardenBed = 7;
     public static void main(String[] args) {
-        Set<String> harvest = new HashSet<>(gardenBed);
+        Set<String> harvestSet = new HashSet<>(gardenBed);
         System.out.println("Под урожай мы вскопали грядки - " + gardenBed + " шт.");
-        harvest.add("картошка");
-        harvest.add("морковь");
-        harvest.add("огурцы");
-        harvest.add("помидоры");
-        harvest.add("кабачок");
-        harvest.add("капуста");
-        harvest.add("картошка");
-        System.out.println("Мы посадили несколько овощей: " + harvest);
+        harvestSet.add("картошка");
+        harvestSet.add("морковь");
+        harvestSet.add("огурцы");
+        harvestSet.add("помидоры");
+        harvestSet.add("кабачок");
+        harvestSet.add("капуста");
+        harvestSet.add("картошка");
+        System.out.println("Мы посадили несколько овощей: " + harvestSet);
         System.out.println("Под вторую грядку картошки семян не хватило, поэтому ");
-        System.out.println("всего грядок получилось " + harvest.size() + " шт.");
+        System.out.println("всего грядок получилось " + harvestSet.size() + " шт.");
         System.out.println();
     }
 }
