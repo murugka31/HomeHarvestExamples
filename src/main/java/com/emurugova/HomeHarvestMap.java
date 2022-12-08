@@ -23,7 +23,7 @@ public class HomeHarvestMap {
         badGround = 6;
         System.out.println("На " + badGround + " грядке оказалась плохая земля, не прижилось. Поставили беседку на это место.");
         harvestMap.remove(badGround);
-        System.out.println("Снисли пристрой, новое место для посадок.");
+        System.out.println("Снесли пристрой, новое место для посадок.");
         harvestMap.put(8, "груши");
         harvestMap.put(7, "яблоки");
         System.out.println("Теперь у нас грядок " + harvestMap.size()
